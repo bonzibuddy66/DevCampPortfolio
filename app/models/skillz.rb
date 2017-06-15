@@ -1,0 +1,2 @@
+class Skillz < ApplicationRecord
+end

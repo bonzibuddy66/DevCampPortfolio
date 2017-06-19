@@ -27,7 +27,7 @@ puts "5 Skills created"
        title: "Portfolio Titile #{portfolio_item}",
        subtitle:"My great service" , 
        body: "The internet is a strange place",
-       main_image:"placehold.it/600x200",
+       main_image:"placehold.it/400x200",
        thumb_image: "placehold.it/300x500"
        )
 end

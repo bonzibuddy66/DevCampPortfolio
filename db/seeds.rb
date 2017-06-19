@@ -28,7 +28,7 @@ puts "5 Skills created"
        subtitle:"My great service" , 
        body: "The internet is a strange place",
        main_image:"placehold.it/600x200",
-       thumb_image: "placehold.it/650x500"
+       thumb_image: "placehold.it/300x500"
        )
 end
 puts "9 Portfolio items created!"

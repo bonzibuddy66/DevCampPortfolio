@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :users
+  #devise_for :installs
   resources :portfolios, except: [:show]
 
   get 'about-me', to: 'pages#about'

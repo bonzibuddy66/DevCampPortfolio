@@ -3,5 +3,6 @@ class Blog < ApplicationRecord
     extend FriendlyId
     friendly_id :title, use: :slugged
     validates_presence_of :title, :body
+    # Comment "belongs_to :topic" out if you're having bugs!
     belongs_to :topic
 end

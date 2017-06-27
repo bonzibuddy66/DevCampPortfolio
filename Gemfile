@@ -54,3 +54,4 @@ gem 'devise', '~> 4.3'
 gem 'jquery-rails'
 
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
+

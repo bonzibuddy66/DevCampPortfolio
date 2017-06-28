@@ -55,4 +55,4 @@ gem 'jquery-rails'
 
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 
-gem 'bonzi_view_tool', git: 'https://github.com/bonzibuddy66/new_bonzi_view_tool'
+gem 'bonzi_view_tool', '~> 0.1.0'

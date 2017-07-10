@@ -9,6 +9,10 @@ class Portfolio < ApplicationRecord
     def self.programming
         where(subtitle: 'Programming')
     end
+    
+    def self.by_position
+        order("position ASC")
+    end
     scope  :service, -> { where(subtitle: 'My great service')}
     
     after_initialize :set_defaults

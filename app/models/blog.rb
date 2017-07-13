@@ -5,4 +5,7 @@ class Blog < ApplicationRecord
     validates_presence_of :title, :body
     # Comment "belongs_to :topic" out if you're having bugs!
     #belongs_to :topic
+    
+    has_many :comments, dependent: :destroy
+   
 end

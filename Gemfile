@@ -84,3 +84,5 @@ gem 'redis', '~> 3.3', '>= 3.3.3'
 gem 'redcarpet', '~> 3.4'
 
 gem 'coderay', '~> 1.1', '>= 1.1.1'
+
+gem 'obscenity', '~> 1.0', '>= 1.0.2'

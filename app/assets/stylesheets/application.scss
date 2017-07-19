@@ -227,8 +227,20 @@ body {
   
 }
 
+.app-card-container {
+  color: black;
+  text-align: left;
+  
+}
 
+.app-card-container > .card {
+  padding: 40px;
+}
 
+.image-card {
+  border: 1px solid grey;
+  
+}
 
 
 

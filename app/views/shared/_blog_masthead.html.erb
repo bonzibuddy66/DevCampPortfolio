@@ -1,7 +1,7 @@
 <div class="blog-header">
       <div class="container">
         <h1 class="blog-title">My Blog</h1>
-        <p class="lead blog-description">Nothing showing up? Do <em>NOT</em> worry! The blogs will be published by a site admin soon!</p>
+        <p class="lead blog-description">Nothing showing up? Do <mark><em>NOT</em></mark> worry! The blogs will be published by a site admin soon!</p>
         <span><%= link_to 'Write a New Blog', new_blog_path if logged_in?(:site_admin) %></span>
         <br>
         <span><%= link_to 'Topics', topics_path %></span>

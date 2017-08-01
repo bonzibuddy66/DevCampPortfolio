@@ -1,19 +1,4 @@
-User.create!(
-        email: "test3@test.com",
-        password: "abcd12345",
-        password_confirmation: "abcd12345",
-        name: "Admin User",
-        roles: "site_admin"
-    )
-puts "1 Admin User Created"
 
-User.create!(
-        email: "test2@test.com",
-        password: "abcd12345",
-        password_confirmation: "abcd12345",
-        name: "John Doe",
-    )
-puts "1 User Created"
 
 
 3.times do |topic|

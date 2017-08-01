@@ -6,4 +6,4 @@
 .byebug_history
 /config/secrets.yml
 .env
-/migrate/seeds.rb
+/db/seeds.rb
